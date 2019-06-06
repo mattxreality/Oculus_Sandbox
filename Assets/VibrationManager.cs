@@ -2,6 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/*   INSTRUCTIONS ON HAPTIC USAGE
+ *   
+ *   1. Add either of the below to an action that triggers haptics. 
+ *   These are usually placed on an action script (like shooting control).
+ *   (e.g. button click, grab, audio source, proximity, etc)
+ *   2. Remember that haptics can clips can be
+ *      Mix - Blend two or more clips together
+ *      Preempt - Stop current clip and start new clip
+ *      Queue - Wait for current clip then run new clip
+ *   
+ *   make controller vibrate using an audio file
+ *   VibrationManager.singleton.TriggerVibration(shootingAudio,ovrGrabbable.grabbedBy.GetController());
+ *
+ *   make controller vibrate using manual frequency parameters
+ *   VibrationManager.singleton.TriggerVibrationManual(40,2,255, ovrGrabbable.grabbedBy.GetController());
+*/
+
+
 public class VibrationManager : MonoBehaviour {
 
     // make this class a singleton
@@ -24,7 +43,7 @@ public void TriggerVibration(AudioClip vibrationAudio, OVRInput.Controller contr
         if(controller == OVRInput.Controller.LTouch)
         {
             // trigger on Left controller
-            OVRHaptics.LeftChannel.Preempt(clip);
+            OVRHaptics.LeftChannel. Preempt(clip);
         }
 
         else if (controller == OVRInput.Controller.RTouch)
