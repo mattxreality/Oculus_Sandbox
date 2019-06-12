@@ -36,12 +36,20 @@ public class IgniteFlare : MonoBehaviour
     [SerializeField] ParticleSystem igniteSparks;
     [SerializeField] ParticleSystem flareFlame;
 
-    [SerializeField] float coolDownValue;
+    [SerializeField] float coolDownValue = 15f;
     private float currCoolDownValue; // used for countdown and resetting lights & collision
 
     void Start()
     {
  
+    }
+
+    void Update()
+    {
+        if (currCoolDownValue == 0)
+        {
+            // turn off flare
+        }
     }
 
     void OnCollisionEnter(Collision collision)
@@ -62,7 +70,7 @@ public class IgniteFlare : MonoBehaviour
 
     private IEnumerator CountDownTimer(float coolDownValue)
     {
-        // counts down based on 'Light Duration" value
+        // counts down one second for each unit of coolDownValue
         currCoolDownValue = coolDownValue;
         while (currCoolDownValue > 0)
         {
