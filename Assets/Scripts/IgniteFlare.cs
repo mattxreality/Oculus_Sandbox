@@ -14,8 +14,8 @@ public class IgniteFlare : MonoBehaviour
      * DONE make child of flare
      * DONE add ignite script to impact go
      * DONE (0.2) Set rb mass lower so the flare can be thrown farther
-     * Add lighting effect to flare
-     *      Use light lerp code from Rocket2
+     * DONE Add lighting effect to flare
+     * Use light lerp code from Rocket2
      * Add duration script so flare light and PS last same time
      *      Use countDown -= Time.deltaTime; // confirm with whiteboard
      * 
@@ -57,7 +57,7 @@ public class IgniteFlare : MonoBehaviour
         if (collision.relativeVelocity.magnitude > 2)
         {
             // todo send message to start flare
-            StartCoroutine(StartCountdown(coolDownValue)); // countdown to turn off flare
+            StartCoroutine(CountDownTimer(coolDownValue)); // countdown to turn off flare
         }
     }
 

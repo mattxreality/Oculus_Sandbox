@@ -1,0 +1,37 @@
+This project uses the following items from Poly (http://poly.google.com):
+
+Title: Balloon
+Author: Poly by Google
+URL: https://poly.google.com/view/d1gDDhM7pTf
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Old-Fashioned Desk
+Author: Bruno Oliveira
+URL: https://poly.google.com/view/bliLXiDJNal
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Road
+Author: Poly by Google
+URL: https://poly.google.com/view/79YnTuHPrZN
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: semi truck
+Author: David Rappo
+URL: https://poly.google.com/view/0Ahg_qAVvhl
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Street Objects - Lamp Post
+Author: Ev Amitay
+URL: https://poly.google.com/view/awUS2qoxeSa
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Truck
+Author: Poly by Google
+URL: https://poly.google.com/view/edJLxRGWFzS
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
