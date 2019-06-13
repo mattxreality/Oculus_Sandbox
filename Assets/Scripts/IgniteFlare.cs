@@ -41,24 +41,43 @@ public class IgniteFlare : MonoBehaviour
 
     void Start()
     {
- 
+        lightSource.enabled = !lightSource.enabled; // start with light off
     }
 
     void Update()
     {
+        SetLightColor();
+
         if (currCoolDownValue == 0)
         {
             // turn off flare
         }
+
+        DebugMyStuff();
     }
 
     void OnCollisionEnter(Collision collision)
     {
         if (collision.relativeVelocity.magnitude > 2)
         {
+            LightFlare();
             // todo send message to start flare
             StartCoroutine(CountDownTimer(coolDownValue)); // countdown to turn off flare
         }
+    }
+
+    private void LightFlare()
+    {
+        igniteSparks.Play();
+        flareFlame.Play();
+        lightSource.enabled = true;
+    }
+
+    private void ExtinguishFlare()
+    {
+        igniteSparks.Stop();
+        flareFlame.Stop();
+        lightSource.enabled = false;
     }
 
     private void SetLightColor()
@@ -77,6 +96,19 @@ public class IgniteFlare : MonoBehaviour
             // Debug.Log("Countdown: " + currCoolDownValue);
             yield return new WaitForSeconds(1.0f);
             currCoolDownValue--;
+        }
+    }
+    private void DebugMyStuff()
+    {
+        if (Input.GetKeyDown("f"))
+        {
+            LightFlare();
+            print("light source status" + lightSource.enabled.ToString());
+        }
+        
+        if (Input.GetKeyDown("g"))
+        {
+            ExtinguishFlare();
         }
     }
 }
