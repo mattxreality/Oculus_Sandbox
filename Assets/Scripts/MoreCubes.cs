@@ -5,11 +5,11 @@ using UnityEngine;
 public class MoreCubes : MonoBehaviour
 {
     public GameObject cubePrefab;
-
+    public Transform spawnPoint;
 
     public void Cube()
     {
-        Instantiate(cubePrefab);
+        Instantiate(cubePrefab, spawnPoint.transform.position, spawnPoint.transform.rotation);
     }
 
 }
