@@ -45,12 +45,22 @@ public class SnakeMovement : MonoBehaviour
         float curspeed = speed;
 
         if (Input.GetKey(KeyCode.Y))
-        { curspeed *= 2; }
+        {
+            curspeed *= 2;
+        }
 
         Segments[0].Translate(Segments[0].forward * curspeed * Time.smoothDeltaTime, Space.World);
 
-        if (Input.GetAxis("Horizontal") != 0)
-        { Segments[0].Rotate(Vector3.up * rotationspeed * Time.deltaTime * Input.GetAxis("Horizontal"));}
+        //if (Input.GetAxis("Horizontal") != 0)
+        //{
+        //    Segments[0].Rotate(Vector3.up * rotationspeed * Time.deltaTime * Input.GetAxis("Horizontal"));
+        //}
+
+        //if (Input.GetAxis("Vertical") != 0)
+        //{
+        //    Segments[0].Rotate(Vector3.right * rotationspeed * Time.deltaTime * Input.GetAxis("Vertical"));
+        //}
+
 
         for (int i = 1; i < Segments.Count; i++)
         {

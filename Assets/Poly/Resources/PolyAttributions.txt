@@ -6,6 +6,12 @@ URL: https://poly.google.com/view/d1gDDhM7pTf
 License: Creative Commons CC-BY
 https://creativecommons.org/licenses/by/3.0/legalcode
 
+Title: Dragon Head
+Author: Mordu
+URL: https://poly.google.com/view/8ztEHP-Igyk
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
 Title: Milk Crate
 Author: Colton J
 URL: https://poly.google.com/view/bfQUaTXLKYO
@@ -21,6 +27,12 @@ https://creativecommons.org/licenses/by/3.0/legalcode
 Title: Road
 Author: Poly by Google
 URL: https://poly.google.com/view/79YnTuHPrZN
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Segment - Dragon body
+Author: Matt Hoffman
+URL: https://poly.google.com/view/f85c27Z9scI
 License: Creative Commons CC-BY
 https://creativecommons.org/licenses/by/3.0/legalcode
 
