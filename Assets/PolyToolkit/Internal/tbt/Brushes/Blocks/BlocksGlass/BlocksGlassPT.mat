@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: BlocksGlassPT
   m_Shader: {fileID: 4800000, guid: 7fbe2fe7dc7c2a64a9b2abac67b85b54, type: 3}
   m_ShaderKeywords: _EMISSION
@@ -70,9 +71,9 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RimIntensity: 0.5
-    - _RimPower: 4
-    - _Shininess: 0.7999
+    - _RimIntensity: 0.601
+    - _RimPower: 12.6
+    - _Shininess: 0.077
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1

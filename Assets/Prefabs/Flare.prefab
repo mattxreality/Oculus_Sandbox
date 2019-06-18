@@ -9852,7 +9852,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7945995840245192785}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 7ef6de9d124f6cc44aa2f6364e168275, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5000001
@@ -9880,9 +9880,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7945995840245192785}
   serializedVersion: 2
-  m_Mass: 0.01
-  m_Drag: 0.005
-  m_AngularDrag: 0.005
+  m_Mass: 0.001
+  m_Drag: 0
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -9959,7 +9959,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c5ad16cf7542f694689abb15ae02e040, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.35
+  m_Volume: 0.216
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -9968,7 +9968,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 100
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
