@@ -2395,6 +2395,10 @@ PrefabInstance:
       propertyPath: StartWithControllers
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11437430, guid: 84c8b8609f9bb434eaf5248f17ff1293, type: 3}
+      propertyPath: EnableBody
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84c8b8609f9bb434eaf5248f17ff1293, type: 3}
 --- !u!1 &299246565
@@ -5149,15 +5153,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfcbed738e5f16548bc6b4284038f7d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnableMovementDuringReady: 1
-  EnableMovementDuringAim: 1
-  EnableMovementDuringPreTeleport: 1
+  EnableMovementDuringReady: 0
+  EnableMovementDuringAim: 0
+  EnableMovementDuringPreTeleport: 0
   EnableMovementDuringPostTeleport: 1
-  EnableRotationDuringReady: 1
-  EnableRotationDuringAim: 1
-  EnableRotationDuringPreTeleport: 1
+  EnableRotationDuringReady: 0
+  EnableRotationDuringAim: 0
+  EnableRotationDuringPreTeleport: 0
   EnableRotationDuringPostTeleport: 1
-  TeleportDestinationPrefab: {fileID: 114000013141257940, guid: 1b474618c4fc5f54e8a8b803c8352c7d,
+  TeleportDestinationPrefab: {fileID: 1211673062088377765, guid: e780b99ff354c304b84bdd54def64c14,
     type: 3}
   AimCollisionType: 0
   UseCharacterCollisionData: 0
@@ -12485,6 +12489,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba900fd1701c4b14b8719dd0b949efa6, type: 3}
+--- !u!1001 &4354959183307495957
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1244741531269508467, guid: e780b99ff354c304b84bdd54def64c14,
+        type: 3}
+      propertyPath: m_Name
+      value: TeleportDestination_MAXR
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246245506685706387, guid: e780b99ff354c304b84bdd54def64c14,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246245506685706387, guid: e780b99ff354c304b84bdd54def64c14,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.228
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246245506685706387, guid: e780b99ff354c304b84bdd54def64c14,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246245506685706387, guid: e780b99ff354c304b84bdd54def64c14,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246245506685706387, guid: e780b99ff354c304b84bdd54def64c14,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246245506685706387, guid: e780b99ff354c304b84bdd54def64c14,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246245506685706387, guid: e780b99ff354c304b84bdd54def64c14,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246245506685706387, guid: e780b99ff354c304b84bdd54def64c14,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246245506685706387, guid: e780b99ff354c304b84bdd54def64c14,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246245506685706387, guid: e780b99ff354c304b84bdd54def64c14,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246245506685706387, guid: e780b99ff354c304b84bdd54def64c14,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e780b99ff354c304b84bdd54def64c14, type: 3}
 --- !u!198 &4480651711164603394 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 4468939981074257788, guid: 00a38c2b6d7de804c9f8223905b6a10b,
