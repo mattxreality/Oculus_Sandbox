@@ -24,9 +24,21 @@ URL: https://poly.google.com/view/bliLXiDJNal
 License: Creative Commons CC-BY
 https://creativecommons.org/licenses/by/3.0/legalcode
 
+Title: Rapid Prototype - Desert Scene
+Author: Matt Hoffman
+URL: https://poly.google.com/view/2yap2WcGsMj
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
 Title: Road
 Author: Poly by Google
 URL: https://poly.google.com/view/79YnTuHPrZN
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Rock Terrain Asset 01a
+Author: Matt Hoffman
+URL: https://poly.google.com/view/9wcc2thAe3e
 License: Creative Commons CC-BY
 https://creativecommons.org/licenses/by/3.0/legalcode
 

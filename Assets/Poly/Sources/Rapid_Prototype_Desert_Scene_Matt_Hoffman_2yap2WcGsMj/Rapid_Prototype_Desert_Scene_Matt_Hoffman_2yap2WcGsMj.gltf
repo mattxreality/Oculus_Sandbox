@@ -1,0 +1,1162 @@
+{
+	"asset": {
+		"generator": "Tilt Brush 18.6.e2ff70c06",
+		"version": "1.1",
+		"copyright": "Unknown."
+	},
+	"buffers": {
+		"sketch": {
+			"byteLength": 42373500,
+			"type": "arraybuffer",
+			"uri": "sketch.bin"
+		}
+	},
+	"accessors": {
+		"accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 64902,
+			"max": [ 0.191181, 1.790129, 0.6271707 ],
+			"min": [ -0.721701, 1.09924, -0.4093556 ],
+			"type": "VEC3"
+		 },
+		"accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 778824,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 64902,
+			"max": [ 0.9999853, 1, 0.9999978 ],
+			"min": [ -0.9999698, -1, -0.9998662 ],
+			"type": "VEC3"
+		 },
+		"accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 0,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 64902,
+			"max": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"min": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"type": "VEC4"
+		 },
+		"accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_0": {
+			"bufferView": "vec2BufferView",
+			"byteOffset": 0,
+			"byteStride": 8,
+			"componentType": 5126,
+			"count": 64902,
+			"max": [ 0, 1 ],
+			"min": [ 0, 1 ],
+			"type": "VEC2"
+		 },
+		"accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 0,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 64902,
+			"max": [ 64901 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		 },
+		"accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_1": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 1557648,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 65340,
+			"max": [ 0.1469169, 1.511531, 0.5716876 ],
+			"min": [ -0.6962162, 1.214834, -0.287759 ],
+			"type": "VEC3"
+		 },
+		"accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_1": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2341728,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 65340,
+			"max": [ 0.9995488, 0.9998822, 0.9999853 ],
+			"min": [ -0.9998096, -0.9999774, -0.9999694 ],
+			"type": "VEC3"
+		 },
+		"accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_1": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1038432,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 65340,
+			"max": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"min": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"type": "VEC4"
+		 },
+		"accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_1": {
+			"bufferView": "vec2BufferView",
+			"byteOffset": 519216,
+			"byteStride": 8,
+			"componentType": 5126,
+			"count": 65340,
+			"max": [ 0, 1 ],
+			"min": [ 0, 1 ],
+			"type": "VEC2"
+		 },
+		"accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_1": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 129804,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 65340,
+			"max": [ 65339 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		 },
+		"accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_2": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 3125808,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 65262,
+			"max": [ -0.09635549, 1.342966, 0.3425932 ],
+			"min": [ -0.5565802, 1.275574, -0.1441515 ],
+			"type": "VEC3"
+		 },
+		"accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_2": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 3908952,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 65262,
+			"max": [ 0.9999964, 0.9996957, 0.9998931 ],
+			"min": [ -0.9999706, -0.9998828, -0.9999965 ],
+			"type": "VEC3"
+		 },
+		"accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_2": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2083872,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 65262,
+			"max": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"min": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"type": "VEC4"
+		 },
+		"accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_2": {
+			"bufferView": "vec2BufferView",
+			"byteOffset": 1041936,
+			"byteStride": 8,
+			"componentType": 5126,
+			"count": 65262,
+			"max": [ 0, 1 ],
+			"min": [ 0, 1 ],
+			"type": "VEC2"
+		 },
+		"accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_2": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 260484,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 65262,
+			"max": [ 65261 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		 },
+		"accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_3": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4692096,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 65400,
+			"max": [ -0.2366249, 1.326615, 0.3433998 ],
+			"min": [ -0.5483158, 1.28024, 0.05297079 ],
+			"type": "VEC3"
+		 },
+		"accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_3": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5476896,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 65400,
+			"max": [ 0.9999685, 0.9994791, 0.9998791 ],
+			"min": [ -0.9998901, -0.999871, -0.9997497 ],
+			"type": "VEC3"
+		 },
+		"accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_3": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 3128064,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 65400,
+			"max": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"min": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"type": "VEC4"
+		 },
+		"accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_3": {
+			"bufferView": "vec2BufferView",
+			"byteOffset": 1564032,
+			"byteStride": 8,
+			"componentType": 5126,
+			"count": 65400,
+			"max": [ 0, 1 ],
+			"min": [ 0, 1 ],
+			"type": "VEC2"
+		 },
+		"accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_3": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 391008,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 65400,
+			"max": [ 65399 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		 },
+		"accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_4": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 6261696,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 65526,
+			"max": [ -0.03691474, 1.321251, 0.2818212 ],
+			"min": [ -0.3927449, 1.283642, 0.1150195 ],
+			"type": "VEC3"
+		 },
+		"accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_4": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 7048008,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 65526,
+			"max": [ 0.9995554, 0.9992424, 0.9998952 ],
+			"min": [ -0.9999803, -0.9998281, -0.9999986 ],
+			"type": "VEC3"
+		 },
+		"accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_4": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 4174464,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 65526,
+			"max": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"min": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"type": "VEC4"
+		 },
+		"accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_4": {
+			"bufferView": "vec2BufferView",
+			"byteOffset": 2087232,
+			"byteStride": 8,
+			"componentType": 5126,
+			"count": 65526,
+			"max": [ 0, 1 ],
+			"min": [ 0, 1 ],
+			"type": "VEC2"
+		 },
+		"accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_4": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 521808,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 65526,
+			"max": [ 65525 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		 },
+		"accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_5": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 7834320,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 65460,
+			"max": [ -0.03425432, 1.320697, 0.508689 ],
+			"min": [ -0.2360847, 1.284761, 0.2486309 ],
+			"type": "VEC3"
+		 },
+		"accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_5": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 8619840,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 65460,
+			"max": [ 0.9999902, 0.9998841, 0.9992764 ],
+			"min": [ -0.9999834, -0.9996104, -0.9999598 ],
+			"type": "VEC3"
+		 },
+		"accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_5": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 5222880,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 65460,
+			"max": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"min": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"type": "VEC4"
+		 },
+		"accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_5": {
+			"bufferView": "vec2BufferView",
+			"byteOffset": 2611440,
+			"byteStride": 8,
+			"componentType": 5126,
+			"count": 65460,
+			"max": [ 0, 1 ],
+			"min": [ 0, 1 ],
+			"type": "VEC2"
+		 },
+		"accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_5": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 652860,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 65460,
+			"max": [ 65459 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		 },
+		"accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_6": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 9405360,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 64938,
+			"max": [ -0.04904981, 1.320144, 0.5100811 ],
+			"min": [ -0.5331412, 1.286596, -0.08632841 ],
+			"type": "VEC3"
+		 },
+		"accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_6": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 10184616,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 64938,
+			"max": [ 0.9990636, 0.9999335, 0.999845 ],
+			"min": [ -0.9999149, -0.9998576, -0.9998924 ],
+			"type": "VEC3"
+		 },
+		"accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_6": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 6270240,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 64938,
+			"max": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"min": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"type": "VEC4"
+		 },
+		"accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_6": {
+			"bufferView": "vec2BufferView",
+			"byteOffset": 3135120,
+			"byteStride": 8,
+			"componentType": 5126,
+			"count": 64938,
+			"max": [ 0, 1 ],
+			"min": [ 0, 1 ],
+			"type": "VEC2"
+		 },
+		"accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_6": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 783780,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 64938,
+			"max": [ 64937 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		 },
+		"accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_7": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 10963872,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 65274,
+			"max": [ 0.01025825, 1.383523, 0.4018651 ],
+			"min": [ -0.131859, 1.261412, 0.1037454 ],
+			"type": "VEC3"
+		 },
+		"accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_7": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 11747160,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 65274,
+			"max": [ 0.9998893, 0.9999796, 0.9998536 ],
+			"min": [ -0.9998677, -0.999868, -0.999754 ],
+			"type": "VEC3"
+		 },
+		"accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_7": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 7309248,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 65274,
+			"max": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"min": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"type": "VEC4"
+		 },
+		"accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_7": {
+			"bufferView": "vec2BufferView",
+			"byteOffset": 3654624,
+			"byteStride": 8,
+			"componentType": 5126,
+			"count": 65274,
+			"max": [ 0, 1 ],
+			"min": [ 0, 1 ],
+			"type": "VEC2"
+		 },
+		"accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_7": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 913656,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 65274,
+			"max": [ 65273 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		 },
+		"accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_8": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 12530448,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 64938,
+			"max": [ 0.01171348, 1.366727, 0.2211338 ],
+			"min": [ -0.2897332, 1.271059, 0.1006454 ],
+			"type": "VEC3"
+		 },
+		"accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_8": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 13309704,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 64938,
+			"max": [ 0.9999611, 0.9999716, 0.9999384 ],
+			"min": [ -0.9996028, -0.9999922, -0.9999455 ],
+			"type": "VEC3"
+		 },
+		"accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_8": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 8353632,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 64938,
+			"max": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"min": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"type": "VEC4"
+		 },
+		"accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_8": {
+			"bufferView": "vec2BufferView",
+			"byteOffset": 4176816,
+			"byteStride": 8,
+			"componentType": 5126,
+			"count": 64938,
+			"max": [ 0, 1 ],
+			"min": [ 0, 1 ],
+			"type": "VEC2"
+		 },
+		"accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_8": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 1044204,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 64938,
+			"max": [ 64937 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		 },
+		"accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_9": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 14088960,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 65436,
+			"max": [ -0.1215016, 1.333385, 0.3888674 ],
+			"min": [ -0.2890345, 1.26456, 0.1955705 ],
+			"type": "VEC3"
+		 },
+		"accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_9": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 14874192,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 65436,
+			"max": [ 0.9999667, 0.9999852, 0.9998158 ],
+			"min": [ -0.9999562, -0.9999987, -0.9999998 ],
+			"type": "VEC3"
+		 },
+		"accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_9": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 9392640,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 65436,
+			"max": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"min": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"type": "VEC4"
+		 },
+		"accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_9": {
+			"bufferView": "vec2BufferView",
+			"byteOffset": 4696320,
+			"byteStride": 8,
+			"componentType": 5126,
+			"count": 65436,
+			"max": [ 0, 1 ],
+			"min": [ 0, 1 ],
+			"type": "VEC2"
+		 },
+		"accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_9": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 1174080,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 65436,
+			"max": [ 65435 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		 },
+		"accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_10": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 15659424,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 65340,
+			"max": [ -0.2640917, 1.333146, 0.2209832 ],
+			"min": [ -0.2940319, 1.271526, 0.1925747 ],
+			"type": "VEC3"
+		 },
+		"accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_10": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 16443504,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 65340,
+			"max": [ 0.9998384, 0.9999788, 0.9999529 ],
+			"min": [ -0.9998596, -0.9999816, -0.9998137 ],
+			"type": "VEC3"
+		 },
+		"accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_10": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 10439616,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 65340,
+			"max": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"min": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"type": "VEC4"
+		 },
+		"accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_10": {
+			"bufferView": "vec2BufferView",
+			"byteOffset": 5219808,
+			"byteStride": 8,
+			"componentType": 5126,
+			"count": 65340,
+			"max": [ 0, 1 ],
+			"min": [ 0, 1 ],
+			"type": "VEC2"
+		 },
+		"accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_10": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 1304952,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 65340,
+			"max": [ 65339 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		 },
+		"accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_11": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 17227584,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 65508,
+			"max": [ -0.1115484, 1.331966, 0.4041731 ],
+			"min": [ -0.2869508, 1.271735, 0.1917636 ],
+			"type": "VEC3"
+		 },
+		"accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_11": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 18013680,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 65508,
+			"max": [ 0.9993095, 0.9999603, 0.9999474 ],
+			"min": [ -0.9998809, -0.9999329, -0.99979 ],
+			"type": "VEC3"
+		 },
+		"accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_11": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 11485056,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 65508,
+			"max": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"min": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"type": "VEC4"
+		 },
+		"accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_11": {
+			"bufferView": "vec2BufferView",
+			"byteOffset": 5742528,
+			"byteStride": 8,
+			"componentType": 5126,
+			"count": 65508,
+			"max": [ 0, 1 ],
+			"min": [ 0, 1 ],
+			"type": "VEC2"
+		 },
+		"accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_11": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 1435632,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 65508,
+			"max": [ 65507 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		 },
+		"accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_12": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 18799776,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 64146,
+			"max": [ 0.01038744, 1.333054, 0.457194 ],
+			"min": [ -0.5379035, 1.277882, 0.05888546 ],
+			"type": "VEC3"
+		 },
+		"accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_12": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 19569528,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 64146,
+			"max": [ 0.9993491, 0.9999764, 0.9999998 ],
+			"min": [ -0.9999126, -0.9997878, -0.999893 ],
+			"type": "VEC3"
+		 },
+		"accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_12": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 12533184,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 64146,
+			"max": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"min": [ 0.4156863, 0.4039216, 0.4039216, 1 ],
+			"type": "VEC4"
+		 },
+		"accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_12": {
+			"bufferView": "vec2BufferView",
+			"byteOffset": 6266592,
+			"byteStride": 8,
+			"componentType": 5126,
+			"count": 64146,
+			"max": [ 0, 1 ],
+			"min": [ 0, 1 ],
+			"type": "VEC2"
+		 },
+		"accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_12": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 1566648,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 64146,
+			"max": [ 64145 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		 }
+	},
+	"bufferViews": {
+		"ushortBufferView": {
+			"buffer": "sketch",
+			"byteLength": 1694940,
+			"byteOffset": 0,
+			"target": 34963
+		},
+		"vec2BufferView": {
+			"buffer": "sketch",
+			"byteLength": 6779760,
+			"byteOffset": 1694940,
+			"target": 34962
+		},
+		"vec3BufferView": {
+			"buffer": "sketch",
+			"byteLength": 20339280,
+			"byteOffset": 8474700,
+			"target": 34962
+		},
+		"vec4BufferView": {
+			"buffer": "sketch",
+			"byteLength": 13559520,
+			"byteOffset": 28813980,
+			"target": 34962
+		}
+	},
+	"meshes": {
+		"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_0": {
+			"name": "mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_0",
+						"NORMAL": "accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_0",
+						"COLOR": "accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_0",
+						"TEXCOORD_0": "accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_0"
+					},
+					"indices": "accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_0",
+					"material": "material_79348357-432d-4746-8e29-0e25c112e3aa",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_1": {
+			"name": "mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_1",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_1",
+						"NORMAL": "accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_1",
+						"COLOR": "accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_1",
+						"TEXCOORD_0": "accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_1"
+					},
+					"indices": "accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_1",
+					"material": "material_79348357-432d-4746-8e29-0e25c112e3aa",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_2": {
+			"name": "mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_2",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_2",
+						"NORMAL": "accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_2",
+						"COLOR": "accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_2",
+						"TEXCOORD_0": "accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_2"
+					},
+					"indices": "accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_2",
+					"material": "material_79348357-432d-4746-8e29-0e25c112e3aa",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_3": {
+			"name": "mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_3",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_3",
+						"NORMAL": "accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_3",
+						"COLOR": "accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_3",
+						"TEXCOORD_0": "accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_3"
+					},
+					"indices": "accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_3",
+					"material": "material_79348357-432d-4746-8e29-0e25c112e3aa",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_4": {
+			"name": "mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_4",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_4",
+						"NORMAL": "accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_4",
+						"COLOR": "accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_4",
+						"TEXCOORD_0": "accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_4"
+					},
+					"indices": "accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_4",
+					"material": "material_79348357-432d-4746-8e29-0e25c112e3aa",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_5": {
+			"name": "mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_5",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_5",
+						"NORMAL": "accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_5",
+						"COLOR": "accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_5",
+						"TEXCOORD_0": "accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_5"
+					},
+					"indices": "accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_5",
+					"material": "material_79348357-432d-4746-8e29-0e25c112e3aa",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_6": {
+			"name": "mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_6",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_6",
+						"NORMAL": "accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_6",
+						"COLOR": "accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_6",
+						"TEXCOORD_0": "accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_6"
+					},
+					"indices": "accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_6",
+					"material": "material_79348357-432d-4746-8e29-0e25c112e3aa",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_7": {
+			"name": "mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_7",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_7",
+						"NORMAL": "accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_7",
+						"COLOR": "accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_7",
+						"TEXCOORD_0": "accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_7"
+					},
+					"indices": "accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_7",
+					"material": "material_79348357-432d-4746-8e29-0e25c112e3aa",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_8": {
+			"name": "mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_8",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_8",
+						"NORMAL": "accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_8",
+						"COLOR": "accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_8",
+						"TEXCOORD_0": "accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_8"
+					},
+					"indices": "accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_8",
+					"material": "material_79348357-432d-4746-8e29-0e25c112e3aa",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_9": {
+			"name": "mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_9",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_9",
+						"NORMAL": "accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_9",
+						"COLOR": "accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_9",
+						"TEXCOORD_0": "accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_9"
+					},
+					"indices": "accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_9",
+					"material": "material_79348357-432d-4746-8e29-0e25c112e3aa",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_10": {
+			"name": "mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_10",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_10",
+						"NORMAL": "accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_10",
+						"COLOR": "accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_10",
+						"TEXCOORD_0": "accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_10"
+					},
+					"indices": "accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_10",
+					"material": "material_79348357-432d-4746-8e29-0e25c112e3aa",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_11": {
+			"name": "mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_11",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_11",
+						"NORMAL": "accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_11",
+						"COLOR": "accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_11",
+						"TEXCOORD_0": "accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_11"
+					},
+					"indices": "accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_11",
+					"material": "material_79348357-432d-4746-8e29-0e25c112e3aa",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_12": {
+			"name": "mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_12",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_12",
+						"NORMAL": "accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_12",
+						"COLOR": "accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_12",
+						"TEXCOORD_0": "accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_12"
+					},
+					"indices": "accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_12",
+					"material": "material_79348357-432d-4746-8e29-0e25c112e3aa",
+					"mode": 4
+				}
+			]
+		}
+	},
+	"shaders": {
+		"vertex_79348357-432d-4746-8e29-0e25c112e3aa": {
+			"type": 35633,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/MatteHull-79348357-432d-4746-8e29-0e25c112e3aa/MatteHull-79348357-432d-4746-8e29-0e25c112e3aa-v10.0-vertex.glsl"
+		},
+		"fragment_79348357-432d-4746-8e29-0e25c112e3aa": {
+			"type": 35632,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/MatteHull-79348357-432d-4746-8e29-0e25c112e3aa/MatteHull-79348357-432d-4746-8e29-0e25c112e3aa-v10.0-fragment.glsl"
+		}
+	},
+	"programs": {
+		"program_79348357-432d-4746-8e29-0e25c112e3aa": {
+			"attributes": [
+				"a_position",
+				"a_normal",
+				"a_color",
+				"a_texcoord0"				
+			],
+			"vertexShader": "vertex_79348357-432d-4746-8e29-0e25c112e3aa",
+			"fragmentShader": "fragment_79348357-432d-4746-8e29-0e25c112e3aa"
+		}
+	},
+	"techniques": {
+		"technique_79348357-432d-4746-8e29-0e25c112e3aa": {
+			"program": "program_79348357-432d-4746-8e29-0e25c112e3aa",
+			"parameters": {
+				"position": {
+					"type": 35665,
+					"semantic": "POSITION"
+				},
+				"normal": {
+					"type": 35665,
+					"semantic": "NORMAL"
+				},
+				"color": {
+					"type": 35666,
+					"semantic": "COLOR"
+				},
+				"texcoord0": {
+					"type": 35664,
+					"semantic": "TEXCOORD_0"
+				},
+				"modelViewMatrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW"
+				},
+				"projectionMatrix": {
+					"type": 35676,
+					"semantic": "PROJECTION"
+				},
+				"normalMatrix": {
+					"type": 35675,
+					"semantic": "MODELVIEWINVERSETRANSPOSE"
+				},
+				"SceneLight_0_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_0_-3064"
+				},
+				"SceneLight_0_color": {
+					"type": 35666,
+					"node": "node_SceneLight_0_-3064"
+				},
+				"SceneLight_1_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_1_-3070"
+				},
+				"SceneLight_1_color": {
+					"type": 35666,
+					"node": "node_SceneLight_1_-3070"
+				},
+				"ambient_light_color": {
+					"type": 35666
+				},
+				"Cutoff": {
+					"type": 5126
+				},
+				"Color": {
+					"type": 35666
+				}				
+			},
+			"attributes": {
+				"a_position": "position",
+				"a_normal": "normal",
+				"a_color": "color",
+				"a_texcoord0": "texcoord0"				
+			},
+			"uniforms": {
+				"u_modelViewMatrix": "modelViewMatrix",
+				"u_projectionMatrix": "projectionMatrix",
+				"u_normalMatrix": "normalMatrix",
+				"u_SceneLight_0_matrix": "SceneLight_0_matrix",
+				"u_SceneLight_0_color": "SceneLight_0_color",
+				"u_SceneLight_1_matrix": "SceneLight_1_matrix",
+				"u_SceneLight_1_color": "SceneLight_1_color",
+				"u_ambient_light_color": "ambient_light_color",
+				"u_Cutoff": "Cutoff",
+				"u_Color": "Color"				
+			},
+			"states": {
+				"enable": [
+					2929
+				],
+				"functions": {
+					"depthMask": [true]
+				}
+			}
+		}
+	},
+	"materials": {
+		"material_79348357-432d-4746-8e29-0e25c112e3aa": {
+			"technique": "technique_79348357-432d-4746-8e29-0e25c112e3aa",
+			"values": {
+				"SceneLight_0_color": [0.7780392, 0.8156863, 0.9913726, 1],
+				"SceneLight_1_color": [0.4282353, 0.4211765, 0.3458824, 1],
+				"ambient_light_color": [0.3921569, 0.3921569, 0.3921569, 1],
+				"Cutoff": 0.5,
+				"Color": [1, 1, 1, 1]				
+			},
+			"name": "material_79348357-432d-4746-8e29-0e25c112e3aa"
+		}
+	},
+	"nodes": {
+		"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_0": {
+			"name": "node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_0",
+			"meshes": [
+				"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_SceneLight_0_-3064": {
+			"name": "node_SceneLight_0_-3064",
+			"light": "SceneLight_0",
+			"matrix": [0.898794, 0.2191856, -0.3796406, 0, -0.4383712, 0.449397, -0.7783785, 0, -1.490116E-08, 0.8660254, 0.4999999, 0, 0, 0.021875, 0.05458749, 1]
+		},
+		"node_SceneLight_1_-3070": {
+			"name": "node_SceneLight_1_-3070",
+			"light": "SceneLight_1",
+			"matrix": [0.7660444, -0.4924039, -0.4131759, 0, -0.6427876, -0.5868242, -0.4924039, 0, 8.940697E-08, 0.6427876, -0.7660446, 0, 0, 0.021875, 0.05458749, 1]
+		},
+		"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_1": {
+			"name": "node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_1",
+			"meshes": [
+				"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_1"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_2": {
+			"name": "node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_2",
+			"meshes": [
+				"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_2"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_3": {
+			"name": "node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_3",
+			"meshes": [
+				"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_3"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_4": {
+			"name": "node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_4",
+			"meshes": [
+				"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_4"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_5": {
+			"name": "node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_5",
+			"meshes": [
+				"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_5"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_6": {
+			"name": "node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_6",
+			"meshes": [
+				"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_6"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_7": {
+			"name": "node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_7",
+			"meshes": [
+				"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_7"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_8": {
+			"name": "node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_8",
+			"meshes": [
+				"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_8"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_9": {
+			"name": "node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_9",
+			"meshes": [
+				"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_9"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_10": {
+			"name": "node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_10",
+			"meshes": [
+				"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_10"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_11": {
+			"name": "node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_11",
+			"meshes": [
+				"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_11"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_12": {
+			"name": "node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_12",
+			"meshes": [
+				"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_12"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		}
+	},
+	"scene": "defaultScene",
+	"scenes": {
+		"defaultScene": {
+			"nodes": [
+				"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_0",
+				"node_SceneLight_0_-3064",
+				"node_SceneLight_1_-3070",
+				"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_1",
+				"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_2",
+				"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_3",
+				"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_4",
+				"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_5",
+				"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_6",
+				"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_7",
+				"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_8",
+				"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_9",
+				"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_10",
+				"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_11",
+				"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_12"
+			],
+			"extras": {
+				"TB_EnvironmentGuid": "ab080599-e465-4a6d-8587-43bf495af68b",
+				"TB_Environment": "Standard",
+				"TB_UseGradient": "true",
+				"TB_SkyColorA": "0.2745098, 0.2745098, 0.3176471",
+				"TB_SkyColorB": "0.03529412, 0.03529412, 0.08627451",
+				"TB_SkyGradientDirection": "0, 1, 0",
+				"TB_FogColor": "0.1647059, 0.1647059, 0.2078431",
+				"TB_FogDensity": "0.0025",
+				"TB_SkyColorHorizon": "0.2745098, 0.2745098, 0.3176471",
+				"TB_SkyColorZenith": "0.03529412, 0.03529412, 0.08627451"
+			}
+		}
+	}
+}
