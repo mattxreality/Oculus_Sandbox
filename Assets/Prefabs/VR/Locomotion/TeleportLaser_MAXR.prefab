@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4000010951004030}
   - component: {fileID: 120000014163304990}
   m_Layer: 0
-  m_Name: TeleportLaser
+  m_Name: TeleportLaser_MAXR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
