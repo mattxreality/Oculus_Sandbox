@@ -26,13 +26,14 @@ public class VibrationManager : MonoBehaviour {
     // make this class a singleton
     public static VibrationManager singleton;
     
-    void Start()
+    void Awake()
     {
-        // make this class a singleton
+        // check if this is the only instance. If not, destroy this instance.
         if (singleton && singleton != this)
             Destroy(this);
         else
-            singleton = this; 
+            singleton = this;
+        DontDestroyOnLoad(gameObject);
     }
 
 // trigger haptic vibration from audio clip

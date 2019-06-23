@@ -18,7 +18,8 @@ using UnityEngine;
 using System.Collections; // required for Coroutines
 
 /// <summary>
-/// Fades the screen from black after a new scene is loaded. Fade can also be controlled mid-scene using SetUIFade and SetFadeLevel
+/// Fades the screen from black after a new scene is loaded. 
+/// Fade can also be controlled mid-scene using SetUIFade and SetFadeLevel
 /// </summary>
 public class OVRScreenFade : MonoBehaviour
 {
