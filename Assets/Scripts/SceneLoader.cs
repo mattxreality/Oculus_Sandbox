@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+
+    [SerializeField] GameObject centralEyeAnchor;
+
     // Makes this class a singleton
     public static SceneLoader singleton;
 
@@ -30,9 +33,16 @@ public class SceneLoader : MonoBehaviour
         #endregion
 
     }
-    public void LoadFirstScene()
-    {
 
+    public void LoadStartMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    public void LoadSandbox01()
+    {
+        // todo control fade on OVRScreenFade
+        centralEyeAnchor.GetComponent<OVRScreenFade>().FadeOut();
         SceneManager.LoadScene(1);
     }
 
@@ -44,6 +54,8 @@ public class SceneLoader : MonoBehaviour
             fadeComplete = false;
             SceneManager.LoadScene(nextLevel);
         }
+
+        // old scene change triggered by controller
         if (SceneManager.GetActiveScene().buildIndex == 0)
         {
             if (OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger) >= Mathf.Epsilon)
