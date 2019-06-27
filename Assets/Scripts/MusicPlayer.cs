@@ -9,10 +9,8 @@ public class MusicPlayer : MonoBehaviour
 
     void Awake()
     {
-
         // check if this is the only instance. If not, destroy this instance. Creates a public class.
 
-        #region SINGLETON
         if (singleton && singleton != this)
         {
             Destroy(this);
@@ -20,16 +18,8 @@ public class MusicPlayer : MonoBehaviour
         else
         {
             singleton = this;
+            
         }
-
-        DontDestroyOnLoad(gameObject);
-        #endregion
-
-    }
-
-
-    void Update()
-    {
-        
+        //DontDestroyOnLoad(gameObject);
     }
 }
