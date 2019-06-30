@@ -20,6 +20,6 @@ public class MusicPlayer : MonoBehaviour
             singleton = this;
             
         }
-        //DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(gameObject);
     }
 }

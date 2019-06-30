@@ -6,9 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/SplashScreen.unity
+    guid: f7092f84a2353b442970cb52a6fb8896
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 3bb23a5469409fc40a32b4a22a3a0da6
+  - enabled: 1
     path: Assets/Scenes/StartMenu.unity
     guid: b9eed85ae359b984d943f78e7c37a181
   - enabled: 1
     path: Assets/Scenes/Sandbox01.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Desert.unity
+    guid: e874424a4916c394aac971d0f3e6bd99
+  - enabled: 1
+    path: Assets/Scenes/TruckRepair.unity
+    guid: ca0ecf995e52edf458ac93efe0740322
   m_configObjects: {}

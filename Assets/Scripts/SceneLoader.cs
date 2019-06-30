@@ -18,6 +18,7 @@ public class SceneLoader : MonoBehaviour
     int nextSceneIndex;
     int currentScene;  // create an integer variable for storing the current scene index
     float fadeTime;
+    int loadingSceneIndex = 1;
 
     void Awake()
     {
@@ -58,14 +59,28 @@ public class SceneLoader : MonoBehaviour
 
     public void LoadStartMenu()
     {
-        nextSceneIndex = 0; // scene index destination
+        nextSceneIndex = 2; // scene index destination
 
         SceneTransition();
     }
 
     public void LoadSandbox01()
     {
-        nextSceneIndex = 1; // scene index destination
+        nextSceneIndex = 3; // scene index destination
+
+        SceneTransition();
+    }
+
+    public void LoadDesert()
+    {
+        nextSceneIndex = 4; // scene index destination
+
+        SceneTransition();
+    }
+
+    public void LoadTruckRepair()
+    {
+        nextSceneIndex = 5; // scene index destination
 
         SceneTransition();
     }
@@ -73,9 +88,13 @@ public class SceneLoader : MonoBehaviour
     IEnumerator LoadScene(float delay = 0.0f) // Coroutine with built-in delay
     {
         if (delay != 0)
+        {
             yield return new WaitForSeconds(delay);
+        }
+
         // The rest of your coroutine here
-        SceneManager.LoadScene(nextSceneIndex);
+        SceneLoading.singleton.sceneIndexToLoad = nextSceneIndex;
+        SceneManager.LoadScene(loadingSceneIndex);
     }
 
     private void Update()

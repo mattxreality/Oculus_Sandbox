@@ -38,7 +38,7 @@ public class VibrationManager : MonoBehaviour {
             singleton = this;
             
         }
-        // DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(gameObject);
     }
 
 // trigger haptic vibration from audio clip

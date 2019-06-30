@@ -9768,6 +9768,7 @@ GameObject:
   - component: {fileID: 7945995840245192744}
   - component: {fileID: 7945995840245192747}
   - component: {fileID: 7945995840245192746}
+  - component: {fileID: 6359022892523395678}
   - component: {fileID: 7945995840245192789}
   - component: {fileID: 2745234924421711369}
   - component: {fileID: 7945995840245192788}
@@ -9845,6 +9846,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &6359022892523395678
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7945995840245192785}
+  m_Material: {fileID: 13400000, guid: 7ef6de9d124f6cc44aa2f6364e168275, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 1.9999999, z: 1.0000002}
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!136 &7945995840245192789
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9854,7 +9868,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 7945995840245192785}
   m_Material: {fileID: 13400000, guid: 7ef6de9d124f6cc44aa2f6364e168275, type: 2}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5000001
   m_Height: 2
   m_Direction: 1
@@ -9895,7 +9909,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7945995840245192785}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
@@ -9905,7 +9919,7 @@ MonoBehaviour:
   m_snapOrientation: 0
   m_snapOffset: {fileID: 7945995840245192744}
   m_grabPoints:
-  - {fileID: 7945995840245192789}
+  - {fileID: 6359022892523395678}
   m_materialColorField: 
 --- !u!114 &7945995840245192790
 MonoBehaviour:
@@ -9914,7 +9928,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7945995840245192785}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
   m_Name: 
@@ -9922,9 +9936,9 @@ MonoBehaviour:
   m_allowOffhandGrab: 1
   m_snapPosition: 0
   m_snapOrientation: 0
-  m_snapOffset: {fileID: 0}
+  m_snapOffset: {fileID: 7945995840245192744}
   m_grabPoints:
-  - {fileID: 7945995840245192789}
+  - {fileID: 6359022892523395678}
 --- !u!114 &2194007682309449466
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -15,6 +15,18 @@ public class ChangeScene : MonoBehaviour
     }
 
 
+    public void LoadTruckRepair()
+    {
+        SceneLoader.singleton.LoadTruckRepair();
+        Debug.Log("Button Press for LoadTruckRepair");
+    }
+
+    public void LoadDesert()
+    {
+        SceneLoader.singleton.LoadDesert();
+        Debug.Log("Button Press for LoadDesert");
+    }
+
     public void LoadSandbox01()
     {
         SceneLoader.singleton.LoadSandbox01();
