@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
 
-    [SerializeField] GameObject centralEyeAnchor;
+    //[SerializeField] GameObject centralEyeAnchor;
 
     // Makes this class a singleton
     public static SceneLoader singleton;
@@ -35,7 +35,7 @@ public class SceneLoader : MonoBehaviour
         {
             singleton = this;
         }
-       // DontDestroyOnLoad(gameObject);
+       DontDestroyOnLoad(gameObject);
 
     }
 
@@ -43,16 +43,20 @@ public class SceneLoader : MonoBehaviour
     {
         totalScenes = SceneManager.sceneCountInBuildSettings - 1; // # scenes in build settings
         currentScene = SceneManager.GetActiveScene().buildIndex;  // get the active scene's index, stored as int
-        fadeTime = centralEyeAnchor.GetComponent<OVRScreenFade>().fadeTime;
+
+        fadeTime = 5f;
+        //fadeTime = centralEyeAnchor.GetComponent<OVRScreenFade>().fadeTime;
     }
 
     private void SceneTransition()
     {
         if (currentScene != nextSceneIndex)
         {
-            centralEyeAnchor.GetComponent<OVRScreenFade>().FadeOut();
-            StartCoroutine(LoadScene(fadeTime)); // load scene after fadeTime completes
+            //centralEyeAnchor.GetComponent<OVRScreenFade>().FadeOut();
+
             currentScene = nextSceneIndex;
+            StartCoroutine(LoadScene(fadeTime)); // load scene after fadeTime completes
+ 
             Debug.Log("running StartMenu()");
         }
     }
@@ -93,8 +97,15 @@ public class SceneLoader : MonoBehaviour
         }
 
         // The rest of your coroutine here
-        SceneLoading.singleton.sceneIndexToLoad = nextSceneIndex;
+
+        // 1. load loading scene
+        // 2. wait 2 seconds for the scene to load
+        // 3. set sceneloading index
         SceneManager.LoadScene(loadingSceneIndex);
+        yield return new WaitForSeconds(2f);
+        SceneLoading.singleton.sceneIndexToLoad = nextSceneIndex;
+        //SceneManager.LoadScene(nextSceneIndex);
+        //SceneManager.LoadScene(loadingSceneIndex);
     }
 
     private void Update()
@@ -103,15 +114,15 @@ public class SceneLoader : MonoBehaviour
         if (Input.GetKeyDown("l"))
         {
             // fade out
-            centralEyeAnchor.GetComponent<OVRScreenFade>().FadeOut();
-            Invoke("LoadSandbox01", centralEyeAnchor.GetComponent<OVRScreenFade>().fadeTime);
+            //centralEyeAnchor.GetComponent<OVRScreenFade>().FadeOut();
+            Invoke("LoadSandbox01", fadeTime);
             Debug.Log("FadeOut initiated. 'l' pressed");
         }
         if (Input.GetKeyDown("k"))
         {
             // fade in
-            centralEyeAnchor.GetComponent<OVRScreenFade>().FadeIn();
-            Invoke("LoadSandbox01", centralEyeAnchor.GetComponent<OVRScreenFade>().fadeTime);
+            //centralEyeAnchor.GetComponent<OVRScreenFade>().FadeIn();
+            Invoke("LoadSandbox01", fadeTime);
             Debug.Log("FadeOut initiated. 'k' pressed");
         }
 

@@ -8,11 +8,12 @@ public class SplashScreen : MonoBehaviour
     [SerializeField] float waitTime = 5.0f;
 
     private int loadingSceneIndex = 1;
+    private int mainMenuIndex = 2;
 
     //wait x seconds then load MainMenu
     private IEnumerator Start()
     {
         yield return new WaitForSeconds(waitTime);
-        SceneManager.LoadScene(loadingSceneIndex);
+        SceneManager.LoadScene(mainMenuIndex);
     }
 }

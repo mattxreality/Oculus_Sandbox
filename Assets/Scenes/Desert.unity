@@ -488,6 +488,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vibration Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 3017024815317878508, guid: a1e9a4914a4895740bf7926ae81efd4b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3017024815317878510, guid: a1e9a4914a4895740bf7926ae81efd4b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1234,7 +1239,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4897607310870066, guid: a9d2de84afb308a4796cc671d3432b4d, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4897607310870066, guid: a9d2de84afb308a4796cc671d3432b4d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2058,7 +2063,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2065039979
 GameObject:
@@ -2275,7 +2280,7 @@ PrefabInstance:
     - target: {fileID: 8933335199865131024, guid: 608efad81f4e41d42baede3c9dcbba17,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7940841429033710613, guid: 608efad81f4e41d42baede3c9dcbba17,
         type: 3}
@@ -2315,7 +2320,7 @@ PrefabInstance:
     - target: {fileID: 7940841429033710613, guid: 608efad81f4e41d42baede3c9dcbba17,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7940841429033710613, guid: 608efad81f4e41d42baede3c9dcbba17,
         type: 3}

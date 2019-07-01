@@ -10,7 +10,7 @@ public class SceneLoading : MonoBehaviour
 
     [SerializeField]
     private Image progressBar;
-    public int sceneIndexToLoad;
+    public int sceneIndexToLoad = 2;
 
     private void Awake()
     {
@@ -24,7 +24,7 @@ public class SceneLoading : MonoBehaviour
         }
         // DontDestroyOnLoad(gameObject);
 
-        sceneIndexToLoad = 2; // first scene to load is mainmenu
+        // sceneIndexToLoad = 2; // first scene to load is mainmenu
     }
 
     void Start()
@@ -35,6 +35,9 @@ public class SceneLoading : MonoBehaviour
 
     IEnumerator LoadAsyncOperation()
     {
+
+        yield return new WaitForSeconds(3f);
+
         //create an async operation
         AsyncOperation gameLevel = SceneManager.LoadSceneAsync(sceneIndexToLoad);
         
