@@ -1,0 +1,22 @@
+# MTL
+
+newmtl Layer_1_mtl
+	map_Kd mattxreality_TREE02_Layer_1.png
+
+
+newmtl Layer_2_mtl
+	map_Kd mattxreality_TREE02_Layer_2.png
+
+
+newmtl Layer_2_mtl
+	map_Kd mattxreality_TREE02_Layer_2.png
+
+
+newmtl Layer_3_mtl
+	map_Kd mattxreality_TREE02_Layer_3.png
+
+
+newmtl Layer_4_mtl
+	map_Kd mattxreality_TREE02_Layer_4.png
+
+
