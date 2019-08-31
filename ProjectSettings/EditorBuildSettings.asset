@@ -23,4 +23,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TruckRepair.unity
     guid: ca0ecf995e52edf458ac93efe0740322
+  - enabled: 1
+    path: Assets/Scenes/OVRUIInteraction_load.unity
+    guid: e27774914ff2fab41b654741b67698c2
+  - enabled: 1
+    path: Assets/Scenes/OVRUIInteraction1.unity
+    guid: 26eb4eb50862cbe47a3b931c6bfc7074
+  - enabled: 1
+    path: Assets/Scenes/OVRUIInteraction2.unity
+    guid: 69a22fdb599ff014a9cd54602041af7a
   m_configObjects: {}
